@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="C17">
+  <meta name="description" content="Onlycams">
+  <meta name="keyboards" content="HTML">
+  <meta charset="UTF-8" />
+  <!-- linking external css -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- About title -->
+  <title>About</title>
+</head>
+
+<body>
+  <!--header section-->
+
+  <header>
+
+    <!-- header div -->
+
+    <div id="header">
+      <!-- nav-logo -->
+      <div class="header-logo">
+        <a href="../index.html"><img src="../images/Frame 5.png" alt="" /></a>
+      </div>
+      <!-- nav lists -->
+      <div class="header-list">
+        <nav class="header-list-nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a>Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- teamsection -->
+  <section class="teamsection">
+    <h1>C17- Team 1</h1>
+    <h3 style="text-align: center; margin-top: 2rem">
+      As a <span style="color: green"> team</span> of 5, we are the c17 class
+      team responsible for creating the simple frontend of our camera shop.
+      Our team members have a diverse set of skills and backgrounds, ranging
+      from design to programming. Together, we are dedicated to creating a
+      user-friendly and visually appealing website that showcases the best
+      products from our camera shop. We are committed to working
+      collaboratively and efficiently, ensuring that our project is delivered
+      on time and meets the expectations of our customers. Our team is
+      <span style="color: green">passionate </span> about photography and the
+      role it plays in capturing life's most memorable moments. We believe
+      that every customer deserves the best experience when it comes to
+      purchasing a camera, and we strive to make that experience as smooth and
+      enjoyable as possible.
+    </h3>
+    <hr style="margin: 3rem; width: 100%" />
+
+    <h1>Testomonial</h1>
+    <!-- each team section with team cards and follwind redirection 
+    to cv and social links -->
+    <div class="eachteams">
+      <div class="eachteam">
+        <div>
+          <img src="../images/cv/sunabranjitkarpic-removebg-preview.png" alt="" />
+        </div>
+        <h3>Sunab Ranjitkar</h3>
+        <h7>C170080123</h7>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/sunabranjitkar/">Instagram</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/sunabranjitkar" target="_blank">Twitter</a>
+          </li>
+          <li><a href="./cv/sunabcv.html" target="_blank">CV</a></li>
+        </ul>
+      </div>
+      <div class="eachteam">
+        <div>
+          <img src="../images/cv/1681744770842 (1).jpeg" alt="" />
+        </div>
+        <h3>Shuvam Dhakal</h3>
+        <h7>C170080123</h7>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="./cv/shubham.html" target="_blank">CV</a></li>
+        </ul>
+      </div>
+      <div class="eachteam">
+        <div>
+          <img src="../images/cv/rishi.jpg" alt="" />
+        </div>
+        <h3>Rishi Neupane</h3>
+        <h7>C170080123</h7>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="./cv/rishi.html" target="_blank">CV</a></li>
+        </ul>
+      </div>
+      <div class="eachteam">
+        <div>
+          <img src="../images/cv/beginnerdslr2020-2048px-9793.jpg  " alt="" />
+        </div>
+        <h3>Swayam Maharjan</h3>
+        <h7>C170080123</h7>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Twitter</a></li>
+          <li>
+            <a href="./cv/swam.html" target="_blank">CV</a>
+          </li>
+        </ul>
+      </div>
+      <div class="eachteam">
+        <div>
+          <img src="../images/cv/8285.jpg" alt="" />
+        </div>
+        <h3>Shreyash Bhandari</h3>
+        <h7>C170080123</h7>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Twitter</a></li>
+          <li>
+            <a href="./cv/shreyas.html" target="_blank">CV</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- feedback section -->
+  <section class="feedback">
+    <h1>FeedBack</h1>
+    <!-- form with js validation if validation returns false the form won't submit -->
+    <form action="" class="formhi" name="feedbackform" onsubmit="return Validatefeedback()">
+      <div class="divone">
+        <div>Name: <input name="NameF" type="text" /></div>
+        <div>Email: <input name="EmailF" type="text" /></div>
+        <div>Phone: <input name="PhoneF" type="text" /></div>
+      </div>
+      <div class="divtwo">
+        <input type="text" name="MessageF" placeholder="Write message here" />
+      </div>
+      <button type="submit" style="
+            width: 100%;
+            padding: 0.4rem;
+            background-color: rgba(148, 254, 0, 0.846);
+            cursor: pointer;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+          ">
+        Submit
+      </button>
+    </form>
+  </section>
+  <!-- loading external javascript  -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>

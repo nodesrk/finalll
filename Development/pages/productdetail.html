@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="C17">
+  <meta name="description" content="Onlycams">
+  <meta name="keyboards" content="HTML">
+  <!-- external css -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <!-- Product detaile title -->
+  <title>Product Detail</title>
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <div class="header-logo">
+        <a href="../index.html"><img src="../images/Frame 5.png" alt="" /></a>
+      </div>
+      <div class="header-list">
+        <nav class="header-list-nav">
+          <ul>
+            <li><a class="active" href="../index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li> <a>Cart (<span id="cartspan">0</span>)</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- section that contail product detail -->
+  <section id="wow">
+    <div>
+      <div id="mainimg">
+        <img src="../images/products/cam1.jpg" alt="" />
+      </div>
+      <div>
+        <img onclick="photochange1()" style="width: 90px; height: 90px; object-fit: cover;"
+          src="../images/products/cam1.jpg" alt="" />
+        <img onclick="photochange2()" style="width: 90px; height: 90px; object-fit: cover;"
+          src="../images/products/eos.jpg" alt="" />
+      </div>
+    </div>
+    <div class="rightpro">
+      <h3>Cannon</h3>
+      <h2>EOS-200D</h2>
+      <span style="color: black">⭐⭐⭐⭐</span>
+      <h3 style="margin-top: 1rem; margin-bottom: 1rem">Rs 120,000</h3>
+      <button onclick="increment()">+</button>
+      <input placeholder="0" style="width: 3rem; height: 1.5rem" id="demoInput" type="number" min="0" max="100" />
+      <button onclick="decrement()">-</button>
+      <br />
+      <button onclick="cart()" style="
+            width: 5rem;
+            background-color: black;
+            color: white;
+            margin-top: 1rem;
+            cursor: pointer;
+          ">
+        To Cart
+      </button>
+      <div style="margin-top: 2rem">
+        <!-- Description -->
+        <h3>Description</h3>
+        <p>
+          Meet the Canon EOS R50, the new RF-mount successor to <br />
+          the EOS M50 Mark II that was a hit among bloggers.<br />
+          Recording video in 4K 30p (6K oversampled) or <br />
+          Full HD 120p with the lightweight Canon EOS R50<br />
+          gives you more room to express your creative abilities.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- product section with cards -->
+  <section class="product-section" class="section-p1">
+    <h1>Popular Products</h1>
+    <p>Best camera in market</p>
+    <div class="pro-collection">
+      <div class="product-cart">
+        <a href="../pages/productdetail.html" style="text-decoration: none;">
+
+          <img src="../images/products/cam1.jpg" alt="product image" />
+          <span>Canon</span>
+          <h4>EOS 1500D</h4>
+          <h4 class="price">Rs 10,000</h4>
+
+        </a>
+        <button onclick="cart()"
+          style="width:100%; padding: 0.4rem; background-color: white; cursor: pointer; border-radius: 0.5rem;">To
+          cart</button>
+      </div>
+      <div class="product-cart">
+        <a href="../pages/productdetail.html" style="text-decoration: none;">
+
+
+          <img src="../images/products/STM.webp" alt="product image" />
+          <span>Canon</span>
+          <h4>Canon 50mm 1.8 STM Lens</h4>
+
+          <h4 class="price">Rs 11,111</h4>
+        </a>
+        <button onclick="cart()"
+          style="width:100%; padding: 0.4rem; background-color: white; cursor: pointer; border-radius: 0.5rem;">To
+          cart</button>
+
+      </div>
+      <div class="product-cart">
+        <a href="../pages/productdetail.html" style="text-decoration: none;">
+
+          <img src="../images/products/bag.jpg" alt="product image" />
+          <span>Puluz </span>
+          <h4>Portable Waterproof Bag</h4>
+          <h4 class="price">Rs 7800</h4>
+        </a>
+        <button style="width:100%; padding: 0.4rem; background-color: white; cursor: pointer; border-radius: 0.5rem;">To
+          cart</button>
+      </div>
+      <div class="product-cart">
+        <a href="../pages/productdetail.html" style="text-decoration: none;">
+
+          <img src="../images/products/cleanera.jpg" alt="product image" />
+          <span>Aquaz</span>
+          <h4>Cleaning Kit</h4>
+          <h4 class="price">$78</h4>
+        </a>
+        <button style="width:100%; padding: 0.4rem; background-color: white; cursor: pointer; border-radius: 0.5rem;">To
+          cart</button>
+
+      </div>
+      <div class="product-cart">
+        <a href="../pages/productdetail.html" style="text-decoration: none;">
+
+          <img src="../images/products/gimb.jpg" alt="product image" />
+          <span>FeiyuTech</span>
+          <h4> G6 Plus Gimbal</h4>
+          <h4 class="price">Rs 5000</h4>
+        </a>
+        <button style="width:100%; padding: 0.4rem; background-color: white; cursor: pointer; border-radius: 0.5rem;">To
+          cart</button>
+
+      </div>
+      <div class="product-cart">
+        <a href="../pages/productdetail.html" style="text-decoration: none;">
+
+          <img src="../images/products/eos.jpg" alt="product image" />
+          <span>Canon</span>
+          <h4>Rebel SL3</h4>
+          <h4 class="price">Rs 20000</h4>
+        </a>
+        <button style="width:100%; padding: 0.4rem; background-color: white; cursor: pointer; border-radius: 0.5rem;">To
+          cart</button>
+
+      </div>
+      <div class="product-cart">
+        <a href="../pages/productdetail.html" style="text-decoration: none;">
+
+          <img src="../images/products/lens.jpg" alt="product image" />
+          <span>Canon</span>
+          <h4>Lens 10.5 SL3</h4>
+          <h4 class="price">Rs 20000</h4>
+        </a>
+        <button style="width:100%; padding: 0.4rem; background-color: white; cursor: pointer; border-radius: 0.5rem;">To
+          cart</button>
+
+      </div>
+      <div class="product-cart">
+        <a href="../pages/productdetail.html" style="text-decoration: none;">
+
+          <img src="../images/products/lens3.jpg" alt="product image" />
+          <span>Canon</span>
+          <h4>Rebel lens SL3</h4>
+          <h4 class="price">Rs 20000</h4>
+        </a>
+        <button style="width:100%; padding: 0.4rem; background-color: white; cursor: pointer; border-radius: 0.5rem;">To
+          cart</button>
+
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function increment() {
+      document.getElementById("demoInput").stepUp();
+    }
+    function decrement() {
+      document.getElementById("demoInput").stepDown();
+    }
+  </script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>

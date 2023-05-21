@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="C17">
+  <meta name="description" content="Onlycams">
+  <meta name="keyboards" content="HTML">
+  <!-- linking external css -->
+
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Login title -->
+
+  <title>Login</title>
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <div class="header-logo">
+        <a href="../index.html"><img src="../images/Frame 5.png" alt="" /></a>
+      </div>
+      <div class="header-list">
+        <nav class="header-list-nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a class="active" href="login.html">Login</a></li>
+            <li><a>Cart (<span id="cartspan">0</span>)</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Login Section -->
+  <section class="Loginsection">
+    <div class="logininputandimage">
+
+      <!-- image -->
+
+      <div style="height: 500px; margin: 2rem;">
+        <img src="../images/photo-1516724562728-afc824a36e84.jpg" alt="" style="height: 100%;">
+      </div>
+      <!-- form with validation onsubmit Validation function is called -->
+      <form name="loginform" action="" style="margin: 2rem;" onsubmit="return Validate()">
+        <h1>Login</h1>
+        <h4>Firstname:</h4>
+        <input type="text" name="fname" id="Firstname" placeholder="Enter Firstname">
+        <h4>Lastname:</h4>
+        <input type="text" name="" id="Lastname" placeholder="Enter Lastname">
+        <h4>Email:</h4>
+        <input type="email" name="" id="email" placeholder="Enter Email">
+        <h4>Password:</h4>
+        <input type="text" name="" id="Password" placeholder="Enter Password">
+        <h4>Contact Number:</h4>
+        <input type="text" name="" id="Number" placeholder="Enter Number">
+        <button type="submit" value="submit">Login</button>
+
+
+      </form>
+    </div>
+
+  </section>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
